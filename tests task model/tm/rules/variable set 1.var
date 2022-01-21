@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>variable set 1</name>
+  <uuid>7a04d76a-39a1-4eee-abb1-f6ab01a61019</uuid>
+  <variables name="house" type="House" initialValue="" verbalization="the house" jsonName=""/>
+</ilog.rules.studio.model.base:VariableSet>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="tm" usingRuleflow="true" ruleflowName="New ruleflow" targetRuleProjectName="tm">
+  <name>tm</name>
+  <uuid>4bdca079-84d6-4385-a728-e32e71f10414</uuid>
+  <description><![CDATA[]]></description>
+  <referencedVariables variableName="customer" variableSetName="New variable set" direction="IN_OUT">
+    <variableSet href="../rules/New%20variable%20set.var#85f72183-a502-424c-ab13-1aa41b072b3d"/>
+  </referencedVariables>
+  <referencedVariables variableName="house" variableSetName="variable set 1">
+    <variableSet href="../rules/variable%20set%201.var#7a04d76a-39a1-4eee-abb1-f6ab01a61019"/>
+  </referencedVariables>
+  <ruleflow href="../rules/mon%20folder/sous%20folder/New%20ruleflow.rfl#1a528485-bd3d-4590-a4ca-aae8c241d5df"/>
+  <targetRuleProject href="../../tm#c9325c13-4617-4528-89c6-5d5617587fed"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["tm-tm"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

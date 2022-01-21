@@ -1,0 +1,12 @@
+
+# Customer
+Customer#concept.label = customer
+Customer.Customer(java.lang.String)#phrase.navigation = a new {customer} where {0, name}
+Customer.name#phrase.action = set the name of {this} to {name}
+Customer.name#phrase.navigation = {name} of {this}
+
+# House
+House#concept.label = house
+House.House(java.lang.String)#phrase.navigation = a new {house} where {0, address}
+House.address#phrase.action = set the address of {this} to {address}
+House.address#phrase.navigation = {address} of {this}
